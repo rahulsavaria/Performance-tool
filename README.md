@@ -8,9 +8,8 @@ The tool performs the following checks:
 1. **Libraries.yml (Async/Defer)**: Ensures JavaScript files in `libraries.yml` have `async` or `defer` attributes.
 2. **Non-Optimized Images (CSS & Twig)**: Detects non-WebP image formats in CSS and Twig files.
 3. **Inline CSS/JS in Twig**: Flags excessive inline `<style>` and `<script>` tags in Twig templates.
-4. **Missing Alt Attributes**: Identifies `<img>` tags in Twig files that are missing `alt` attributes for accessibility.
-5. **Large Images in CSS/Twig**: Checks for images larger than 500 KB in CSS and Twig files.
-6. **Missing Async/Defer in `<script>`**: Ensures inline `<script>` tags in Twig files have `async` or `defer` attributes.
+4. **Large Images in CSS/Twig**: Checks for images larger than 500 KB in CSS and Twig files.
+5. **Missing Async/Defer in `<script>`**: Ensures inline `<script>` tags in Twig files have `async` or `defer` attributes.
 
 ## Requirements
 - Python 3.x
